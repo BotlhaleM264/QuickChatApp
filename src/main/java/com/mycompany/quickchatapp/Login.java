@@ -141,7 +141,7 @@ public class Login {
     public String registerUser(){
         //Check username
         if (!checkUserName()){
-            return "Username is not correctlt formatted, please ensure that your username" 
+            return "Username is not correctly formatted, please ensure that your username" 
                     + "contains an underscore and is no more than five characters in length."; 
         }
         //Check password
