@@ -7,6 +7,7 @@ package com.mycompany.quickchatapp;
 import java.util.regex.Pattern;
 
 /**
+ * Part 1: Registration and Login feature
  * The login class handles user registration and authentication.
  * It validates the usernames, password, and the SA cell phone numbers.
  * @author Botlhale Motshwanedi
