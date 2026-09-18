@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *The QuickChatApp class is the main entry point for the application.
- * It handles user integration for registration and login.
+ * It handles registration and login flow for the user
  * @author Botlhale Motshwanedi
  */
 public class QuickChatApp {
