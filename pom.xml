@@ -11,7 +11,12 @@
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.13.0-M3</version>
             <type>jar</type>
-        </dependency>
+         </dependency>
+         <dependency>
+             <groupId>org.json</groupId>
+             <artifactId>json</artifactId>
+             <version>20240303</version>
+         </dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
