@@ -20,7 +20,7 @@ import org.json.JSONObject;
  */
 public class Message {
     //Declarations
-    private String messageID;
+    String messageID;
     private int messageNumber = 0;
     private String recipient;
     private String messageText;
@@ -28,11 +28,11 @@ public class Message {
     private String flag;
     
     //Part 3 parallel arrays
-    private final List<String> sentMessages = new ArrayList<>();
+    final List<String> sentMessages = new ArrayList<>();
     private final List<String> disregardedMessages = new ArrayList<>();
     private final List<String> storedMessages = new ArrayList<>();
-    private final List<String> messageHashes = new ArrayList<>();
-    private final List<String> messageIDs = new ArrayList<>();
+    final List<String> messageHashes = new ArrayList<>();
+    final List<String> messageIDs = new ArrayList<>();
     
     
     public Message(){}
@@ -67,6 +67,9 @@ public class Message {
     }
     public String getMessageHash(){
         return messageHash;
+    }
+    public int returnTotalMessages(){
+        return sentMessages.size();
     }
     
     //Validation methods
@@ -164,7 +167,7 @@ public class Message {
         }
     }
    
-    public void loadStoredMessage(){
+    public void loadStoredMessages(){
         storedMessages.clear();
         try{
             File file = new File("stored_messages.json");
@@ -201,7 +204,7 @@ public class Message {
     }
     
     //b, Longest stored message
-    public String sisplayLongestMessage(){
+    public String displayLongestMessage(){
         if(storedMessages.isEmpty()){
             return "No stored messages.";
         }
