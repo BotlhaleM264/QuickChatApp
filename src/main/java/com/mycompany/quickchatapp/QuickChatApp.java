@@ -94,7 +94,6 @@ public class QuickChatApp {
             System.out.println("    Welcome to QuickChat.");
             System.out.println("======================================================");
             
-            System.out.println("How many messages do you wish to enter? ");
             Message msg = new Message();
             msg.loadStoredMessages();
             
@@ -147,7 +146,6 @@ public class QuickChatApp {
                    continue;
               }
               
-              
                System.out.println("1) Send 2) Disregard 3) Store");
                int c = Integer.parseInt(myInputs.nextLine().trim());
                
@@ -160,6 +158,12 @@ public class QuickChatApp {
                      System.out.println("Message Hash: " + msg.getMessageHash());
                      System.out.println("Recipient: " + r);
                      System.out.println("Message: " + t);
+                }
+                else if(c == 2){
+                    msg.addMessage(r, t, "Disregard");
+                }
+                else if(c == 3){
+                    msg.addMessage(r, t, "Stored");
                 }
          }
           System.out.println("Total messages sent: " + msg.returnTotalMessages());

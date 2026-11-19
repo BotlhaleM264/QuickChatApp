@@ -1,6 +1,38 @@
-[{
-  "flag": "Stored",
-  "recipient": "+27838884567",
-  "messageID": "5097029538",
-  "message": "Where are you? You are late! I have asked you to be on time."
-}]
+[
+  {
+    "flag": "Stored",
+    "recipient": "+27838884567",
+    "messageID": "5097029538",
+    "message": "Where are you? You are late! I have asked you to be on time."
+  },
+  {
+    "flag": "Stored",
+    "recipient": "+27834557896",
+    "messageID": "5108137359",
+    "message": "Did you get the cake?"
+  },
+  {
+    "flag": "Stored",
+    "recipient": "+27834557896",
+    "messageID": "5109619373",
+    "message": "Did you get the cake?"
+  },
+  {
+    "flag": "Stored",
+    "recipient": "+27834557896",
+    "messageID": "5109619373",
+    "message": "Did you get the cake?"
+  },
+  {
+    "flag": "Stored",
+    "recipient": "+27838884567",
+    "messageID": "5109672425",
+    "message": "Where are you? You are late! I have asked you to be on time."
+  },
+  {
+    "flag": "Stored",
+    "recipient": "+27838884567",
+    "messageID": "5109672427",
+    "message": "Where are you? You are late! I have asked you to be on time."
+  }
+]

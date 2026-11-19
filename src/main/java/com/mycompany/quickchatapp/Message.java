@@ -136,6 +136,7 @@ public class Message {
         }
         else if(flag.equals("Stored")){
             storedMessages.add(text);
+            storeMessage();
         }
         else if(flag.equals("Disregard")){
             disregardedMessages.add(text);
@@ -184,7 +185,6 @@ public class Message {
             }
         }
         catch(IOException | JSONException e){
-            System.out.println("Could not load stored messages.");
         }
     }
          
